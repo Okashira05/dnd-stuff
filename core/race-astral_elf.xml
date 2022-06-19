@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Astral Elf" type="Race" source="UA: Travelers of the Multiverse - Edit" id="ID_RACE_ASTRAL_ELF">
+		<description>
+			<p class="flavor">This race came to be when a large group of elves, after having waged an arcane war across a few of the continents, was finally beaten and fended off. The survivors had fled through a new and experimental teleport spell and discovered the astral plane but could not find the correct spell to get back. After a few hundred years their immortal elven bodies attuned to the flow of magic and time in the plane and began being altered by it little by little over time. This continued on through a few millennia until a wizard in the material plane had managed to summon a demon and ask it of the other worlds and sold his soul to find out how to travel to them. He then taught the techniques abroad and soon after the other planes outside the elemental planes were discovered and the astral elves return to the material plane had started.</p>
+			<h4>REFELCTION OF THE STARS</h4>
+			<p>The Astral Elves idealize an appearance that reflects the night sky. Their idea of beauty is a close resemblance to the stars they worship.They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 130 to 175 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p>
+			<p class="indent">Astral Elves have midnight toned skin in various colors of blue and purple, with hints of soft gold or silver and star-like designs that adorn their bodies. Their hair comes in other pale metallic or pastel colors. Clothing worn by Astral Elves nearly always include open chest tunics to openly display the big star-shaped mark on their hearts, as well as overlapping, layered robes. Most robe designs incorporate a dark color scheme with accents reminiscent of constellations, planetary orbits, and other celestial phenomena.</p>
+			<h4>A TIMELESS EFFORT</h4>
+			<p>The normal day for an astral elf begins at coming out of their meditation to clear their thoughts. They then generally begin their magic practices and or training depending on what their job for society was. From their they would study or teach others of their race in whatever they could of the arcane arts. </p>
+			<p class="indent">These practices are important to astral elves, believing that magic had been directly what saved them and brought them to the astral plane and what allowed them to grow back to a proud and powerful race.</p>
+			<h4>EXPLORATION AND ADVENTURE</h4>
+			<p>Some astral elves are prone to melancholy, while others display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, they tend to see things through the lens of time as having little or no meaning to them.</p>
+			<h4>ELF TRAITS</h4>
+			<p>Your astral elf character has a variety of natural and magical abilities, the result of thousands and thousands of theoretical years spent in the astral plane.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2 and your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Because nothing ages in the Astral Plane, astral elves from that plane are thousands of years old, and their longevity gives them an unusual perspective on time. Astral elves who don’t dwell on the Astral Plane can live to be over 750 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Usually leaning toward neutral or good, Astral Elves</p>
+			<p class="indent"><strong><em>Size.</em></strong> Astral Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Astral Ancestry.</em></strong> You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+			<p class="indent"><strong><em>Deep Trance.</em></strong> You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance like meditation, during which you remain conscious.</p>
+			<p class="indent"><strong><em>Deep Trance Proficiencies.</em></strong> Whenever you finish a long rest using your Deep Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the Player’s Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>
+			<p class="indent"><strong><em>Immortal Soul.</em></strong> When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier(choose when you select this race). You can’t use this trait again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Astral Fire.</em></strong> You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common, Elven and one other language that you and your DM agree is appropriate for the character.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="wisdom" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<select type="Language" name="Extra Language (Astral Elf)" supports="Standard||Exotic" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASTRAL_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE_DEEP_TRANCE" />
+			<grant type="Racail Trait" id="ID_RACIAL_TRAIT_TRANCE_DEEP_TRANCE_PROFICIENCIES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE_IMMORTAL_SOUL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASTRAL_FIRE" />
+		</rules>
+	</element>
+	<element name="Keen Senses" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_KEEN_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Astral Ancestry" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_ASTRAL_ANCESTRY">
+		<description>
+			<p>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</description>
+		</sheet>
+	</element>
+	<element name="Deep Trance" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_DEEP_TRANCE">
+		<description>
+			<p>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance like meditation, during which you remain conscious.</p>
+		</description>
+		<sheet>
+			<description>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance like meditation, during which you remain conscious.</description>
+		</sheet>
+	</element>         
+	<element name="Deep Trance Proficiencies" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_DEEP_TRANCE_PROFICIENCIES">
+		<description>
+		    <p>Whenever you finish a long rest using your Deep Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the Player’s Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>     
+		</description>
+		<sheet>
+			<description>Whenever you finish a long rest using your Deep Trance trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the Player’s Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</description>
+		</sheet>
+	</element>
+	<element name="Immortal Soul" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_IMMORTAL_SOUL">
+		<description>
+			<p>When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier(choose when you select this race). You can’t use this trait again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier(choose when you select this race). You can’t use this trait again until you finish a long rest.</description>
+		</sheet>
+	</element>
+	<element name="Astral Fire" type="Racial Trait" source="UA: Travelers of the Multiverse - Edit" id="ID_RACIAL_TRAIT_ASTRAL_FIRE">
+		<description>
+			<p>You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
+		</description>
+		<sheet>
+			<description>You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</description>
+		</sheet>	
+	</element>
+</elements>
