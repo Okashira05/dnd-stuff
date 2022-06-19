@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="1.0.0">
+			<file name="source.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/master/Okashira05/source.xml" />
+		</update>
+	</info>
+	<element name="UA: Travelers of the Multiverse" type="Source" source="Core" id="ID_UAMV_SOURCE_UA_MULTIVERSE">
+		<description>
+			<![CDATA[<p>Homebrew created by Okashira05.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">UAMV</set>
+			<set name="url">https://dnd.wizards.com/unearthed-arcana/travelers-multiverse</set>
+			<set name="author" abbreviation="UAMV">UA: Travelers of the Multiverse</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
