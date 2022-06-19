@@ -3,7 +3,8 @@
 
 	<element name="Astral Elf" type="Race" source="UA: Travelers of the Multiverse - Edit" id="ID_RACE_ASTRAL_ELF">
 		<description>
-			<p class="flavor">This race came to be when a large group of elves, after having waged an arcane war across a few of the continents, was finally beaten and fended off. The survivors had fled through a new and experimental teleport spell and discovered the astral plane but could not find the correct spell to get back. After a few hundred years their immortal elven bodies attuned to the flow of magic and time in the plane and began being altered by it little by little over time. This continued on through a few millennia until a wizard in the material plane had managed to summon a demon and ask it of the other worlds and sold his soul to find out how to travel to them. He then taught the techniques abroad and soon after the other planes outside the elemental planes were discovered and the astral elves return to the material plane had started.</p>
+			<p class="flavor">Long ago, groups of elves ventured from the Feywild to the Astral Plane, with a new and experimental teleport spell, to be closer to their gods. With the help of the Gith they were able to find their way to the Material Plane.</p>
+			<p class="indent">Life in the Silver Void has imbued their immortal elven bodies with a spark of divine light. Attuning to the flow of magic and time in the plane through meditation, they began being altered little by little over time. The divine light manifests as a starry gleam in an astral elf’s eyes.</p>
 			<h4>REFELCTION OF THE STARS</h4>
 			<p>The Astral Elves idealize an appearance that reflects the night sky. Their idea of beauty is a close resemblance to the stars they worship.They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 130 to 175 pounds. Males and females are about the same height, and males are only marginally heavier than females.</p>
 			<p class="indent">Astral Elves have midnight toned skin in various colors of blue and purple, with hints of soft gold or silver and star-like designs that adorn their bodies. Their hair comes in other pale metallic or pastel colors. Clothing worn by Astral Elves nearly always include open chest tunics to openly display the big star-shaped mark on their hearts, as well as overlapping, layered robes. Most robe designs incorporate a dark color scheme with accents reminiscent of constellations, planetary orbits, and other celestial phenomena.</p>
@@ -43,9 +44,9 @@
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
 			<select type="Language" name="Extra Language (Astral Elf)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASTRAL_ANCESTRY" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE_DEEP_TRANCE" />
-			<grant type="Racail Trait" id="ID_RACIAL_TRAIT_TRANCE_DEEP_TRANCE_PROFICIENCIES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
+			<grant type="Racail Trait" id="ID_RACIAL_TRAIT_TRANCEPROFICIENCIES" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE_IMMORTAL_SOUL" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASTRAL_FIRE" />
 		</rules>
