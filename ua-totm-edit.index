@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="source" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/source.xml" />
-		<file name="race-astral-elf" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/race-astral-elf.xml" />
+		<file name="source" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/ua-totm-edit/source.xml" />
+		<file name="race-astral-elf" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/ua-totm-edit/race-astral-elf.xml" />
 	</files>
 </index>
