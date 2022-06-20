@@ -1,7 +1,7 @@
 # dnd-stuff
 additional content to extend [Aurora](https://aurorabuilder.com/), by Okashira05
 
-index url: https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/master/Okashira05/ua-totm-edit.index
+index url: https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/ua-totm-edit.index
 
 ---
 
