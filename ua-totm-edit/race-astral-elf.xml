@@ -5,7 +5,7 @@
 		<description>The forgotten race of UA: Travelers of the Multiverse</description>
 		<author url="https://dnd.wizards.com/unearthed-arcana/travelers-multiverse">Wizards of the Coast</author>
 		<update version="1.0.0">
-			<file name="race-astral-elf.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/ua-totm-edit/master/Okashira05/race-astral-elf.xml" />
+			<file name="race-astral-elf.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/ua-totm-edit/master/race-astral-elf.xml" />
 		</update>
 	</info>
 
