@@ -5,10 +5,11 @@
 		<description>Just some homebrew based on the Astral Elves of UA: Travelers of the Multiverse.</description>
 		<author url="https://dnd.wizards.com/unearthed-arcana/travelers-multiverse">Wizards of the Coast</author>
 		<update version="1.0.0">
-			<file name="ua-totm-edit.index" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/ua-totm-edit/master/Okashira05/ua-totm-edit.index" />
+			<file name="ua-totm-edit.index" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/master/Okashira05/ua-totm-edit.index" />
 		</update>
 	</info>
 	<files>
+		<file name="source" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/ua-totm-edit/master/Okashira05/source.index" />
 		<file name="race-astral-elf" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/core/ua-totm-edit/master/Okashira05/ua-totm-edit.index" />
 	</files>
 </index>
