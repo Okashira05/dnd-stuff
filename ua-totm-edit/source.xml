@@ -5,7 +5,7 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/master/ua-totm-edit/source.xml" />
 		</update>
 	</info>
-	<element name="UA: Travelers of the Multiverse" type="Source" source="Core" id="ID_UAMV_SOURCE_UA_MULTIVERSE">
+	<element name="UA: Travelers of the Multiverse" type="Source" source="Core" id="ID_UAMV_SOURCE_UA_TOTM_EDIT">
 		<description>
 			<![CDATA[<p>Homebrew created by Okashira05.</p>]]>
 		</description>
