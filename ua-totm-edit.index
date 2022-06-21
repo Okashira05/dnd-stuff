@@ -10,6 +10,8 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/master/ua-totm-edit/source.xml" />
+		
+		<!-- races -->
 		<file name="race-astral-elf.xml" url="https://raw.githubusercontent.com/Okashira05/dnd-stuff/master/ua-totm-edit/race-astral-elf.xml" />
 	</files>
 </index>

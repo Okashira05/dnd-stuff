@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Astral Elf" type="Race" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACE_ASTRAL_ELF">
+	<element name="Astral Elf" type="Race" source="UA: Travelers of the Multiverse" id="ID_RACE_ASTRAL_ELF">
 		<description>
 			<p class="flavor">Long ago, groups of elves ventured from the Feywild to the Astral Plane, with a new and experimental teleport spell, to be closer to their gods. With the help of the Gith they were able to find their way to the Material Plane.</p>
 			<p class="indent">Life in the Silver Void has imbued their immortal elven bodies with a spark of divine light. Attuning to the flow of magic and time in the plane through meditation, they began being altered little by little over time. The divine light manifests as a starry gleam in an astral elf’s eyes.</p>
@@ -52,11 +52,11 @@
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
 			<select type="Language" name="Extra Language (Astral Elf)" supports="Standard||Exotic" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
-			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_DIVINE_FEY" />
-			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_OVERTHINKER" />
-			<grant type="Racail Trait" id="ID_UAMV_RACIAL_TRAIT_THOUGHTFUL_MEDITATION" />
-			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_IMMORTAL_SOUL" />
-			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_ASTRAL_FIRE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DIVINE_FEY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_OVERTHINKER" />
+			<grant type="Racail Trait" id="ID_RACIAL_TRAIT_THOUGHTFUL_MEDITATION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_IMMORTAL_SOUL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ASTRAL_FIRE" />
 		</rules>
 	</element>
 	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
@@ -70,7 +70,7 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 		</rules>
 	</element>
-	<element name="Divine Fey" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_DIVINE_FEY">
+	<element name="Divine Fey" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_RACIAL_TRAIT_DIVINE_FEY">
 		<description>
 			<p>Spending time in the astral plane has imbued some of your fey blood with divine light. You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</p>
 		</description>
@@ -78,7 +78,7 @@
 			<description>Spending time in the astral plane has imbued some of your fey blood with divine light. You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</description>
 		</sheet>
 	</element>
-	<element name="Overthinker" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_OVERTHINKER">
+	<element name="Overthinker" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_RACIAL_TRAIT_OVERTHINKER">
 		<description>
 			<p>With time not being an issue in the astral plane you have become accustomed to looking around while you trance. You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance like meditation, during which you remain conscious.</p>
 		</description>
@@ -86,7 +86,7 @@
 			<description>With time not an issue in the astral plane you have become accustomed to looking around while you trance. You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trance like meditation, during which you remain conscious.</description>
 		</sheet>
 	</element>         
-	<element name="Thoughtful Meditation" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_THOUGHTFUL_MEDITATION">
+	<element name="Thoughtful Meditation" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_RACIAL_TRAIT_THOUGHTFUL_MEDITATION">
 		<description>
 		    <p>Whenever you finish a long rest using your Overthinker trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the Player’s Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</p>     
 		</description>
@@ -94,7 +94,7 @@
 			<description>Whenever you finish a long rest using your Overthinker trait, you gain two proficiencies, each one with a weapon or a tool of your choice (selected from the “Equipment” chapter of the Player’s Handbook). You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest.</description>
 		</sheet>
 	</element>
-	<element name="Immortal Soul" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_IMMORTAL_SOUL">
+	<element name="Immortal Soul" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_RACIAL_TRAIT_IMMORTAL_SOUL">
 		<description>
 			<p>When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier(choose when you select this race). You can’t use this trait again until you finish a long rest.</p>
 		</description>
@@ -102,7 +102,7 @@
 			<description>When you succeed on a death save, you can regain a number of hit points equal to your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier(choose when you select this race). You can’t use this trait again until you finish a long rest.</description>
 		</sheet>
 	</element>
-	<element name="Astral Fire" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_ASTRAL_FIRE">
+	<element name="Astral Fire" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_RACIAL_TRAIT_ASTRAL_FIRE">
 		<description>
 			<p>You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).</p>
 		</description>
