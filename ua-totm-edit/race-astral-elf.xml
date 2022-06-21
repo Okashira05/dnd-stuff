@@ -51,7 +51,7 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
 			<select type="Language" name="Extra Language (Astral Elf)" supports="Standard||Exotic" />
-			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
 			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_DIVINE_FEY" />
 			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_OVERTHINKER" />
 			<grant type="Racail Trait" id="ID_UAMV_RACIAL_TRAIT_THOUGHTFUL_MEDITATION" />
@@ -59,7 +59,7 @@
 			<grant type="Racial Trait" id="ID_UAMV_RACIAL_TRAIT_ASTRAL_FIRE" />
 		</rules>
 	</element>
-	<element name="Keen Senses" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_KEEN_SENSES">
+	<element name="Keen Senses" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_KEEN_SENSES">
 		<description>
 			<p>You have proficiency in the Perception skill.</p>
 		</description>
@@ -67,7 +67,7 @@
 			<description>You have proficiency in the Perception skill.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_UAMV_PROFICIENCY_SKILL_PERCEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 		</rules>
 	</element>
 	<element name="Divine Fey" type="Racial Trait" source="UA: Travelers of the Multiverse" id="ID_UAMV_RACIAL_TRAIT_DIVINE_FEY">
